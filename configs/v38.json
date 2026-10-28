@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "recipe": "V38",
+  "target_order": [
+    "ACL",
+    "MCL",
+    "Medial Meniscus",
+    "Lateral Meniscus",
+    "Medial OA",
+    "Lateral OA",
+    "PF OA",
+    "Effusion",
+    "Synovitis",
+    "Baker's",
+    "Contusion",
+    "Fracture"
+  ],
+  "raptor384_share": 0.65,
+  "s6_share": 0.35,
+  "raptor_weights": {
+    "ACL": 0.35000000000000003,
+    "MCL": 0.375,
+    "Medial Meniscus": 0.5,
+    "Lateral Meniscus": 0.4,
+    "Medial OA": 0.425,
+    "Lateral OA": 0.12499999999999999,
+    "PF OA": 0.425,
+    "Effusion": 0.5249999999999999,
+    "Synovitis": 0.6,
+    "Baker's": 0.28750000000000003,
+    "Contusion": 0.35000000000000003,
+    "Fracture": 0.5499999999999999
+  },
+  "reader_weights": {
+    "Baker's": 0.035,
+    "Contusion": 0.03,
+    "Medial OA": 0.025,
+    "ACL": 0.025,
+    "Medial Meniscus": 0.02,
+    "MCL": 0.02,
+    "Lateral Meniscus": 0.008,
+    "Fracture": 0.008,
+    "Lateral OA": 0.008,
+    "PF OA": 0.008,
+    "Effusion": 0.004,
+    "Synovitis": 0.003
+  },
+  "base_float32_csv_roundtrip": true
+}
