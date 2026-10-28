@@ -48,7 +48,7 @@ python -m rsna_knee_ensemble blend --config configs/v38.json --raptor384 /path/t
 
 每份 CSV 包含 `StudyInstanceUID` 和相同的 12 个病种列，病例须一一对应。输出仅为后处理结果，不表示已通过 Kaggle 评分。请将真实预测保留在本机，不提交到仓库。
 
-原 S6 的 `B_probs.csv` 还包含 `z|...` 日志值列，接入前仅保留病例 ID 和 12 个概率列；不能把日志值作为概率输入。镜像 TTA 的平均与解剖标签回映，应在生成分支预测时完成。
+原 S6 的 `B_probs.csv` 还包含额外的 `z|...` 列，接入前仅保留病例 ID 和 12 个概率列；不能把这些额外列作为概率输入。镜像 TTA 的平均与解剖标签回映，应在生成分支预测时完成。
 
 运行测试：
 
