@@ -47,3 +47,5 @@
 本次整理不重新发布许可尚未逐段确认的原始推理 notebook。需要完整五分支推理时，应通过上表原始入口取得授权资产，并核对对应版本、依赖与运行环境。
 
 公开方式遵守该比赛的[具体规则](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules)，其中 General Rules 的 Submission Code Requirements 区分公开代码与受限数据，并要求将公开代码提供至比赛关联的 Kaggle 讨论或 notebook。本次整理不包含数据再分发授权；Kaggle 镜像状态另行记录。
+
+2026-10-28，经仓库作者授权，同步发布了[关联比赛的 Kaggle 公共 notebook](https://www.kaggle.com/code/luisszoboszlai/rsna-knee-v38-silver-rank-fusion)，首次发布版本为 1。镜像包含新编写的融合代码、V38 配置、来源引用、MIT 许可与合成演示，不附带真实病例或上游模型。该公开归档不提交至比赛，不更改原比赛的提交选择。

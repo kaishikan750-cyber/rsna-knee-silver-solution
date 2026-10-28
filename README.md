@@ -2,6 +2,8 @@
 
 面向膝关节 MRI **12 类异常预测**，整理五分支集成方案的后处理实现、融合配置和方法来源。本仓库提供可运行的 **V38 排名融合实现**与合成数据演示，便于检查数值细节和说明比赛思路。
 
+配套的 [Kaggle 公共 notebook](https://www.kaggle.com/code/luisszoboszlai/rsna-knee-v38-silver-rank-fusion)关联原比赛，展示相同融合代码与合成数据演示；[notebook 源文件](notebooks/v38_rank_fusion_demo.ipynb)也保存在本仓库。
+
 **本仓库从五份分支预测开始，不包含 MRI 读取、模型训练或五分支影像推理。** 原方案使用公开模型与代码资产，相关推理需要分别取得上游授权并配置其运行环境。
 
 ## 经历与结果口径
